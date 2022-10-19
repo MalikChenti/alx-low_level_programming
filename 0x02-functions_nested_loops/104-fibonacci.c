@@ -1,27 +1,27 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 /**
- * main - Entry point.
- *
- * Return: Always 0.
- */
+* main - Entry point.
+*
+* Return: Always 0.
+*/
 int main(void)
 {
-  unsigned long int a = 0, b = 1, c;
-  unsigned long int d, e, f, g;
-  int h = 0;
+unsigned long int a = 0, b = 1, c;
+unsigned long int d, e, f, g;
+int h = 0;
 
-  for (h = 0; h <= 91; h++)
-    {
-      c = a + b;
-      a = b;
-      b = c;
-      printf("%lu, ", c);
-    }
-  d = a % 1000;
-  a = a / 1000;
-  e = b % 1000;
-  b = b / 1000;
+for (h = 0; h <= 91; h++)
+{
+c = a + b;
+a = b;
+b = c;
+printf("%lu, ", c);
+}
+d = a % 1000;
+a = a / 1000;
+e = b % 1000;
+b = b / 1000;
 while (h <= 98)
 {
 g = (d + e) / 1000;
