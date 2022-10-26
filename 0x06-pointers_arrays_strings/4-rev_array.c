@@ -1,12 +1,12 @@
 y#include "main.h"
 
 /**
- * reverse_array - reversing an array
- * @a: an array of integers
- * @n: the number of elements to swap
- *
- * Return: nothing.
- */
+* reverse_array - reversing an array
+* @a: an array of integers
+* @n: the number of elements to swap
+*
+* Return: nothing.
+*/
 void reverse_array(int *a, int n)
 {
 int i = 0, b, tmp;
