@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strncat - function to concatenate strings
- * @dest : pointer
- * @src : pointer
- * @n : variable integer
- * Return: Always 0.
- */
+* _strncat - function to concatenate strings
+* @dest : pointer
+* @src : pointer
+* @n : variable integer
+* Return: Always 0.
+*/
 char *_strncat(char *dest, char *src, int n)
 {
 int a, b;

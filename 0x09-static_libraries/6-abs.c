@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _abs- computes absolute value of an integer
- * @a : initializes integer values
- * Return: Always 0.
- */
+* _abs- computes absolute value of an integer
+* @a : initializes integer values
+* Return: Always 0.
+*/
 int _abs(int a)
 {
 
