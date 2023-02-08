@@ -1,34 +1,29 @@
 #include "main.h"
+
 /**
-* jack_bauer-prints all minutes in a day from 00:00
-*
-* Return:0 if succeesful.
-*/
+ * print_square - check for a digit
+ * @n : number of _ to be printed
+ * Return:void
+ */
 
+void print_square(int n)
+{
 
-void jack_bauer(void)
-{
-int i, j, k, m;
+	int i = 0, ii;
 
-for (i = 0; i <= 2; i++)
-{
-for (j = 0; j <= 9; j+
-}
-for (k = 0; k <= 5; k++)
-{
-for (m = 0; m <= 9; m++)
-{
-if (i == 2 && j > 3)
-{break;
-}
-_putchar(i + '0');
-_putchar(j + '0');
-_putchar(':');
-_putchar(k + '0');
-_putchar(m + '0');
-_putchar('\n');
-}
-}
-}
-}
+	while (i < n && n > 0)
+	{
+		ii = 0;
+		while (ii < n)
+		{
+			_putchar('#');
+			ii++;
+		}
+
+		_putchar('\n');
+		i++;
+	}
+	if (i == 0)
+		_putchar('\n');
+
 }
